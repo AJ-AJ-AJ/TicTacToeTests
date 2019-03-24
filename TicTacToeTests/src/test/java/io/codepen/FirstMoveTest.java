@@ -28,10 +28,9 @@ public class FirstMoveTest {
 		playButton.click();
 		
 		//Click to make first move
-		WebElement firstTableSpace = driver.findElement(By.id("0"));
+		WebElement firstTableSpace = driver.findElement(By.id("4"));
 		firstTableSpace.click();
 
-		// Verifications
 
 		// table is visible
 		// If the id "1" is not found, the table isn't visible

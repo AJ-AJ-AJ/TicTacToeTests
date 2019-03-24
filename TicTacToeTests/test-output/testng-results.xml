@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3983" started-at="2019-03-24T22:54:58Z" finished-at="2019-03-24T22:55:02Z">
+  <suite name="Default suite" duration-ms="4356" started-at="2019-03-24T23:01:03Z" finished-at="2019-03-24T23:01:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3983" started-at="2019-03-24T22:54:58Z" finished-at="2019-03-24T22:55:02Z">
+    <test name="Default test" duration-ms="4356" started-at="2019-03-24T23:01:03Z" finished-at="2019-03-24T23:01:08Z">
       <class name="io.codepen.FirstMoveTest">
-        <test-method status="PASS" signature="MakeFirstMove()[pri:0, instance:io.codepen.FirstMoveTest@39aeed2f]" name="MakeFirstMove" duration-ms="3955" started-at="2019-03-24T22:54:58Z" finished-at="2019-03-24T22:55:02Z">
+        <test-method status="PASS" signature="MakeFirstMove()[pri:0, instance:io.codepen.FirstMoveTest@39aeed2f]" name="MakeFirstMove" duration-ms="4317" started-at="2019-03-24T23:01:03Z" finished-at="2019-03-24T23:01:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MakeFirstMove -->
