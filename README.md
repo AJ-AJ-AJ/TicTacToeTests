@@ -22,7 +22,7 @@ The goal of this project was to create a few automated regression tests.
 
 View entire Manual Test Document (linked above) for each bug's description, desired functionality, steps to reproduce, and suggestions.
 
-<img src="images/bug1.png" width="100">
+<img src="images/bug1.png" width="1000">
 ![Bug1](images/bug1.png | width = 100)
 ![Bug2a](images/bug2a.png | width = 100)
 ![Bug2b](images/bug2b.png | width = 100)
