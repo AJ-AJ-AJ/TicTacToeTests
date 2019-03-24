@@ -35,7 +35,7 @@ public class FirstMoveTest {
 		//Verifications
 		
 		//Verify X is written on game board
-		String expectedText = "0";
+		String expectedText = "X";
 		String actualText = firstTableSpace.getText();
 		Assert.assertTrue(actualText.contains(expectedText), "Expected X string, but got: " + actualText);
 
