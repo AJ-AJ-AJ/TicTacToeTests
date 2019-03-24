@@ -18,14 +18,17 @@ The goal of this project was to create a few automated regression tests.
 
 
 ## Quick Glance - Bug Screenshots
-View entire Manual Test Document linked above for each bug's description, desired functionality, steps to reproduce, and suggestions.
 
-![Bug1](images/bug1.png)
-![Bug2a](images/bug2a.png)
-![Bug2b](images/bug2b.png)
-![Bug3](images/bug3.png)
-![Bug4](images/bug4.png)
-![Bug5](images/bug5.png)
+
+View entire Manual Test Document (linked above) for each bug's description, desired functionality, steps to reproduce, and suggestions.
+
+
+![Bug1](images/bug1.png | width = 100)
+![Bug2a](images/bug2a.png | width = 100)
+![Bug2b](images/bug2b.png | width = 100)
+![Bug3](images/bug3.png | width = 100)
+![Bug4](images/bug4.png | width = 100)
+![Bug5](images/bug5.png | width = 100)
 
 
 ## Additions to a Future Version of Project
