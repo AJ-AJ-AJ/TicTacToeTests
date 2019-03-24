@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FirstMoveTest {
@@ -30,7 +31,13 @@ public class FirstMoveTest {
 		//Click to make first move
 		WebElement firstTableSpace = driver.findElement(By.id("4"));
 		firstTableSpace.click();
-
+		
+		//Verifications
+		
+		//Verify X is written on game board
+		String expectedText = "0";
+		String actualText = firstTableSpace.getText();
+		Assert.assertTrue(actualText.contains(expectedText), "Expected X string, but got: " + actualText);
 
 		// table is visible
 		// If the id "1" is not found, the table isn't visible
@@ -38,6 +45,6 @@ public class FirstMoveTest {
 		// Assert.assertTrue(tableRow.isDisplayed(), "Table is not visible");
 
 		// close browser
-		//driver.quit();
+		driver.quit();
 	}
 }
