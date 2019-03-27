@@ -28,7 +28,16 @@ public class StartGameTest {
 			WebElement playButton = driver.findElement(By.id("start"));
 			playButton.click();
 			
-			//Verifications
+			//Check for double board bug
+			
+			WebElement table = driver.findElement(By.id("table"));
+			String oneClickTableSize = table.getSize().toString();
+			System.out.println(oneClickTableSize);
+			
+			playButton.click();
+			String twoClickTableSize = table.getSize().toString();
+			System.out.println(twoClickTableSize);
+			Assert.assertTrue(oneClickTableSize.contains(twoClickTableSize), "Expected: " + oneClickTableSize + " but got: " + twoClickTableSize);
 			
 			//table is visible
 			//If the id "1" is not found, the table isn't visible

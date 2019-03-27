@@ -57,6 +57,6 @@ public class WinGameTestP1 {
 		Assert.assertTrue(actualWinnerMessage.contains(expectedWinnerMessage), "Expected: " + expectedWinnerMessage + " but got: " + actualWinnerMessage);
 
 		// close browser
-		driver.quit();
+		//driver.quit();
 	}
 }
