@@ -7,14 +7,18 @@ Automated testing of a broken Tic Tac Toe game on Codepen
 
 ## Project Description
 
-The goal of this project was to create a few automated regression tests. 
+The goal of this project was to create a few automated regression tests. I wrote three automated tests to verify the following questions:
+
+Can the user start a new game?
+Can the user enter the first play in the game?
+Can Player 1 win the game?
 
 
 ## Technologies Used
 
   * Frameworks - Eclipse, Selenium, TestNG, Maven
   * Languages - Java
-  * Demo - Youtube - [Youtube]()
+  * Demo - Youtube - [Youtube](https://www.youtube.com/watch?v=xjFEI_3n1S4)
 
 
 ## Quick Glance - Bug Screenshots
@@ -25,21 +29,22 @@ View entire Manual Test Document (linked above) for each bug's description, desi
 <img src="images/bug1.png" width="600">
 
 
-<img src="images/bug2a.png" width="600">
+<img src="images/bug2a.png" width="600" align="right">
 
 
 <img src="images/bug2b.png" width="600">
 
 
-<img src="images/bug3.png" width="600">
+<img src="images/bug3.png" width="600" align="right">
 
 
 <img src="images/bug4.png" width="600">
 
 
-<img src="images/bug5.png" width="600">
+<img src="images/bug5.png" width="600" align="right">
 
 
 ## Additions to a Future Version of Project
 
   * Negative Tests
+  * Tests for Player 2
