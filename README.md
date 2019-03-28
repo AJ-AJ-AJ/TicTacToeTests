@@ -18,7 +18,8 @@ Can Player 1 win the game?
 
   * Frameworks - Eclipse, Selenium, TestNG, Maven
   * Languages - Java
-  * Demo - Youtube - [Youtube](https://www.youtube.com/watch?v=xjFEI_3n1S4)
+  * Demo #1 - Youtube - [Youtube](https://www.youtube.com/watch?v=xjFEI_3n1S4)
+  * Demo #2 - Youtube - [Youtube](https://www.youtube.com/watch?v=tUFy6iV-wCg)
 
 
 ## Quick Glance - Bug Screenshots
